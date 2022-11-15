@@ -1,0 +1,17 @@
+main {
+    border: 1px solid black;
+    width: 200px;
+    padding: 15px;/*le padding est fait pour la marge */
+}
+
+.lettrine:first-letter {
+    margin-right: 5px;
+    font-size: 4em/*em est spécifiquement fait pour la taille de la police d'écriture*/;
+    color: red;
+}
+
+.ligne1:first-line {
+    font-variant: small-caps;
+    font-weight: bold;
+    color: blue;
+}
